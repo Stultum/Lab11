@@ -1,9 +1,8 @@
 package ru.stultus.myapplication
 
 
+import org.junit.Assert.assertEquals
 import org.junit.Test
-
-import org.junit.Assert.*
 
 class ExampleUnitTest {
 
@@ -13,7 +12,7 @@ class ExampleUnitTest {
     fun checkMinBetween1And3() {
         val first = 1
         val second = 3
-        val expected = 1
+        val expected = 3
 
         val actual = minMax.min(first, second)
 
